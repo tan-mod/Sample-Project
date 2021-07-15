@@ -13,9 +13,6 @@ public class Trade implements java.io.Serializable {
 
 	private java.lang.Integer id;
 
-	//to store the name
-	private java.lang.String name;
-
 	public Trade() {
 	}
 
@@ -44,21 +41,11 @@ public class Trade implements java.io.Serializable {
 		this.id = id;
 	}
 
-	public java.lang.String getName() {
-		return this.name;
-	}
-
-	public void setName(java.lang.String name) {
-		this.name = name;
-	}
-
 	public Trade(java.lang.String buySellCode,
-			java.lang.String buySideAccountIdentifier, java.lang.Integer id,
-			java.lang.String name) {
+			java.lang.String buySideAccountIdentifier, java.lang.Integer id) {
 		this.buySellCode = buySellCode;
 		this.buySideAccountIdentifier = buySideAccountIdentifier;
 		this.id = id;
-		this.name = name;
 	}
 
 }
