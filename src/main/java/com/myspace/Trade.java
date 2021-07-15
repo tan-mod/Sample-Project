@@ -13,6 +13,7 @@ public class Trade implements java.io.Serializable {
 
 	private java.lang.Integer id;
 
+	//to store the name
 	private java.lang.String name;
 
 	public Trade() {
